@@ -4,9 +4,12 @@ https://docs.deno.com/runtime/fundamentals/workspaces/#migrating-from-npm-worksp
 
 ### Run
 
+Run code with Deno
 
-```
-deno task dev
+```bash 
+$ deno task dev
+Task dev deno run main.ts
+Hi, friend!
 ```
 
 ### Compile
@@ -14,6 +17,7 @@ deno task dev
 Compile code to single executable file
 
 ```
-deno task compile
+$ deno task compile
 ./deno-node-workspace-example # not work
+error: Could not find constraint '@deno/log' in the list of packages.
 ```
