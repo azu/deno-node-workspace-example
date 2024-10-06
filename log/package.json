@@ -1,0 +1,14 @@
+{
+  "name": "@deno/log",
+  "version": "0.5.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "import": "./index.js"
+    }
+  },
+  "main": "index.js",
+  "types": "index.d.ts"
+}
